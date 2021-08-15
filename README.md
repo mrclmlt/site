@@ -33,3 +33,6 @@ II Vésperas do quarto domingo Tempo Comum (solenidade da Assunção de Nossa Se
 <a href="69hrm4seg.html">Hora média da quarta segunda-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 16/08/2021
 
 <a href="70ves4seg.html">Vésperas da quarta segunda-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 16/08/2021
+
+
+<a href="71lau4ter.html">Laudes da quarta terça-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 17/08/2021
