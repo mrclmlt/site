@@ -36,3 +36,116 @@ II Vésperas do quarto domingo Tempo Comum (solenidade da Assunção de Nossa Se
 
 
 <a href="71lau4ter.html">Laudes da quarta terça-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 17/08/2021
+
+<table cellspacing="2" cellpadding="2" border="1" width="50%">
+<tbody>
+<tr>
+<td valign="top">a<br>
+</td>
+<td valign="top">a<br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+<tr>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+<td valign="top"><br>
+</td>
+</tr>
+</tbody>
+</table>
