@@ -1,6 +1,6 @@
 # site
 Uma parte é um blog pessoal, e a outra parte, uma versão on-line da <a href="https://pt.wikipedia.org/wiki/Liturgia_das_Horas">Liturgia das Horas</a> pra eu rezar fora de casa (embora já exista uma <a href="https://liturgiadashoras.online/">versão on-line</a>, mas ela tem todos aqueles sinais 
-gráficos que distraem a minha leitura quando é fora de casa). | <a href="https://twitter.com/mrclmlt">twitter</a> | <a href="https://www.facebook.com/mrclmlt">facebook</a> | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>. |
+gráficos que distraem a minha leitura quando é fora de casa). | <a href="https://twitter.com/mrclmlt">twitter</a> | <a href="https://www.facebook.com/mrclmlt">facebook</a> | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><sup>Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
 
 **Blog**
 
