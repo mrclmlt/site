@@ -128,4 +128,4 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </tbody>
 </table>
 
-| [twitter](https://twitter.com/mrclmlt) | [facebook](https://www.facebook.com/mrclmlt) | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <sup>Licença:<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
+| [twitter](https://twitter.com/mrclmlt) | [facebook](https://www.facebook.com/mrclmlt) | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <sup>Licença: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
