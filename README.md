@@ -13,6 +13,9 @@ gráficos que distraem a minha leitura quando é fora de casa). | <a href="https
 | [será que funciona o link?](62lau3sab.html) | stu |
 | vwx |  yz |
 
+|dom|seg|ter|qua|qui|sex|sáb|
+|-------|-------|-------|-------|-------|-------|-------|
+|1|2|3|4|5|6|7|
 
 **Liturgia das Horas**
 Agosto/2021
