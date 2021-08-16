@@ -6,8 +6,15 @@ gráficos que distraem a minha leitura quando é fora de casa). | <a href="https
 
 [A desfiguração de Cristo](adesfiguracaodecristo.html)
 
+| abc | def |
+|-----|-----|
+| ghi | jkl |
+| mno | pqr |
+| [será que funciona o link?](62lau3sab.html) | stu |
+| vwx |  yz |
 
-<strong>Liturgia das Horas</strong>
+
+**Liturgia das Horas**
 Agosto/2021
 <table cellspacing="2" cellpadding="2" border="1" width="50%">
 <tbody>
