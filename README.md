@@ -30,7 +30,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 <tr>
-<td valign="top">20º (II)<br>
+<td valign="top">18º (II)<br>
 </td>
 <td valign="top">01<br>
 </td>
@@ -48,7 +48,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 <tr>
-<td valign="top">21º(III)<br>
+<td valign="top">19º(III)<br>
 </td>
 <td valign="top">08<br>
 </td>
@@ -70,7 +70,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 <tr>
-<td valign="top">22º (IV)<br>
+<td valign="top">20º (IV)<br>
 </td>
 <td valign="top">15<br>
 </td>
@@ -90,7 +90,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 <tr>
-<td valign="top">23º (I)<br>
+<td valign="top">21º (I)<br>
 </td>
 <td valign="top">22<br>
 </td>
@@ -108,7 +108,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 <tr>
-<td valign="top">24º (II)<br>
+<td valign="top">22º (II)<br>
 </td>
 <td valign="top">29<br>
 </td>
@@ -128,4 +128,4 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </tbody>
 </table>
 
-| [twitter](https://twitter.com/mrclmlt) | [facebook](https://www.facebook.com/mrclmlt) | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><sup>Licença:<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
+| [twitter](https://twitter.com/mrclmlt) | [facebook](https://www.facebook.com/mrclmlt) | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <sup>Licença:<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
