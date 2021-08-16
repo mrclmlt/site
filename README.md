@@ -8,135 +8,112 @@ gráficos que distraem a minha leitura quando é fora de casa). | <a href="https
 
 
 <strong>Liturgia das Horas</strong>
-
-<a href="60hrm3sex.html">Hora média da terceira sexta-feira do Tempo Comum</a> 13/08/2021
-
-<a href="61ves3sex.html">Vésperas da terceira sexta-feira do Tempo Comum</a> 13/08/2021
-
-
-<a href="62lau3sab.html">Laudes do terceiro sábado do Tempo Comum</a> 14/08/2021
-
-<a href="63hrm3sab.html">Hora média do terceiro sábado do Tempo Comum</a> 14/08/2021
-
-I Vésperas do quarto domingo do Tempo Comum (solenidade da Assunção de Nossa Senhora) 14/08/2021
-
-
-Laudes do quarto domingo do Tempo Comum (solenidade da Assunção de Nossa Senhora) 15/08/2021
-
-Hora média do quarto domingo do Tempo Comum (solenidade da Assunção de Nossa Senhora) 15/08/2021
-
-II Vésperas do quarto domingo Tempo Comum (solenidade da Assunção de Nossa Senhora) 15/08/2021
-
-
-<a href="68lau4seg.html">Laudes da quarta segunda-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 16/08/2021
-
-<a href="69hrm4seg.html">Hora média da quarta segunda-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 16/08/2021
-
-<a href="70ves4seg.html">Vésperas da quarta segunda-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 16/08/2021
-
-
-<a href="71lau4ter.html">Laudes da quarta terça-feira do Tempo Comum</a> (vigésima semana no Tempo Comum) 17/08/2021
-
+Agosto/2021
 <table cellspacing="2" cellpadding="2" border="1" width="50%">
 <tbody>
 <tr>
-<td valign="top">a<br>
-</td>
-<td valign="top">a<br>
-</td>
 <td valign="top"><br>
 </td>
-<td valign="top"><br>
+<td valign="top">Domingo</td>
+<td valign="top">Segunda<br>
 </td>
-<td valign="top"><br>
+<td valign="top">Terça<br>
 </td>
-<td valign="top"><br>
+<td valign="top">Quarta<br>
 </td>
-<td valign="top"><br>
+<td valign="top">Quinta<br>
 </td>
-<td valign="top"><br>
+<td valign="top">Sexta<br>
+</td>
+<td valign="top">Sábado<br>
 </td>
 </tr>
 <tr>
-<td valign="top"><br>
+<td valign="top">20º (II)<br>
 </td>
-<td valign="top"><br>
+<td valign="top">01<br>
 </td>
-<td valign="top"><br>
+<td valign="top">02<br>
 </td>
-<td valign="top"><br>
+<td valign="top">03<br>
 </td>
-<td valign="top"><br>
+<td valign="top">04<br>
 </td>
-<td valign="top"><br>
+<td valign="top">05<br>
 </td>
-<td valign="top"><br>
+<td valign="top">06<br>
 </td>
-<td valign="top"><br>
-</td>
-</tr>
-<tr>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
+<td valign="top">07<br>
 </td>
 </tr>
 <tr>
-<td valign="top"><br>
+<td valign="top">21º(III)<br>
 </td>
-<td valign="top"><br>
+<td valign="top">08<br>
 </td>
-<td valign="top"><br>
+<td valign="top">09<br>
 </td>
-<td valign="top"><br>
+<td valign="top">10<br>
 </td>
-<td valign="top"><br>
+<td valign="top">11<br>
 </td>
-<td valign="top"><br>
+<td valign="top">12<br>
 </td>
-<td valign="top"><br>
+<td valign="top">13<br>
+<a href="60hrm3sex.html">HM</a><br>
+<a href="61ves3sex.html">Ve</a><br>
 </td>
-<td valign="top"><br>
-</td>
-</tr>
-<tr>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
-</td>
-<td valign="top"><br>
+<td valign="top">14<br>
+<a href="62lau3sab.html">La</a><br>
+<a href="63hrm3sab.html">HM</a><br>
 </td>
 </tr>
 <tr>
-<td valign="top"><br>
+<td valign="top">22º (IV)<br>
 </td>
-<td valign="top"><br>
+<td valign="top">15<br>
 </td>
-<td valign="top"><br>
+<td valign="top">16<br>
+<a href="68lau4seg.html">La</a><br>
+<a href="69hrm4seg.html">HM</a><br>
+<a href="70ves4seg.html">Ve</a> </td>
+<td valign="top">17<br>
+<a href="71lau4ter.html">La</a> </td>
+<td valign="top">18<br>
 </td>
-<td valign="top"><br>
+<td valign="top">19<br>
+</td>
+<td valign="top">20<br>
+</td>
+<td valign="top">21<br>
+</td>
+</tr>
+<tr>
+<td valign="top">23º (I)<br>
+</td>
+<td valign="top">22<br>
+</td>
+<td valign="top">23<br>
+</td>
+<td valign="top">24<br>
+</td>
+<td valign="top">25<br>
+</td>
+<td valign="top">26<br>
+</td>
+<td valign="top">27<br>
+</td>
+<td valign="top">28<br>
+</td>
+</tr>
+<tr>
+<td valign="top">24º (II)<br>
+</td>
+<td valign="top">29<br>
+</td>
+<td valign="top">30<br>
+</td>
+<td valign="top">31<br>
 </td>
 <td valign="top"><br>
 </td>
