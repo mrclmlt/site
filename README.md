@@ -79,7 +79,9 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <a href="69hrm4seg.html">HM</a><br>
 <a href="70ves4seg.html">Ve</a> </td>
 <td valign="top">17<br>
-<a href="71lau4ter.html">La</a> </td>
+<a href="71lau4ter.html">La</a><br>
+<a href="72hrm4ter.html">HM</a><br>
+<!-- <a href="70ves4seg.html">Ve</a>--></td>
 <td valign="top">18<br>
 </td>
 <td valign="top">19<br>
