@@ -83,6 +83,9 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <a href="72hrm4ter.html">HM</a><br>
 <a href="73ves4ter.html">Ve</a></td>
 <td valign="top">18<br>
+<a href="74lau4qua.html">La</a><br>
+<a href="75hrm4qua.html">HM</a><br>
+<a href="76ves4qua.html">Ve</a><br>  
 </td>
 <td valign="top">19<br>
 </td>
