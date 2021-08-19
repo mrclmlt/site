@@ -90,7 +90,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <td valign="top">19<br>
   <a href="77lau4qui.html">La</a><br>
   <a href="78hrm4qui.html">HM</a><br>
-</td>
+  <a href="79ves4qui.html">Ve</a></td>
 <td valign="top">20<br>
 </td>
 <td valign="top">21<br>
