@@ -96,11 +96,11 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <a href="81hrm4sex.html">HM</a><br>
 <a href="82ves4sex.html">Ve</a></td>
 <td valign="top">21<br>
+<a href="83lau4sab.html">La</a><br>
 </td>
 </tr>
 <tr>
 <td valign="top">21º (I)<br>
-<a href="83lau4sab.html">La</a><br>
 </td>
 <td valign="top">22<br>
 </td>
