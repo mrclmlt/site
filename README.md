@@ -100,6 +100,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </tr>
 <tr>
 <td valign="top">21º (I)<br>
+<a href="83lau4sab.html">La</a><br>
 </td>
 <td valign="top">22<br>
 </td>
