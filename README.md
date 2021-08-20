@@ -92,9 +92,9 @@ gráficos que distraem a minha leitura quando é fora de casa).
   <a href="78hrm4qui.html">HM</a><br>
   <a href="79ves4qui.html">Ve</a></td>
 <td valign="top">20<br>
-  <a href="80lau4sex.html">La</a><br>
-  
-</td>
+<a href="80lau4sex.html">La</a><br>
+<a href="81hrm4sex.html">HM</a><br>
+<a href="82ves4sex.html">Ve</a></td>
 <td valign="top">21<br>
 </td>
 </tr>
