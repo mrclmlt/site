@@ -98,7 +98,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <td valign="top">21<br>
 <a href="83lau4sab.html">La</a><br>
 <a href="84hrm4sab.html">HM</a><br>
-</td>
+<a href="01pve1dom.html">Ve</a></td>
 </tr>
 <tr>
 <td valign="top">21º (I)<br>
