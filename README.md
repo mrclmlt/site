@@ -106,7 +106,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <td valign="top">22<br>
 <a href="02lau1dom.html">La</a><br>
 <a href="03hrm1dom.html">HM</a><br>
-</td>
+<a href="04sve1dom.html">Ve</a></td>
 <td valign="top">23<br>
 </td>
 <td valign="top">24<br>
