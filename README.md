@@ -110,7 +110,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <td valign="top">23<br>
 <a href="santarosadelimalaudes.html">La</a><br>
   <a href="santarosadelimahm.html">HM</a><br>
-</td>
+  <a href="santarosadelimaves.html">Ve</a></td>
 <td valign="top">24<br>
 </td>
 <td valign="top">25<br>
