@@ -108,6 +108,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <a href="03hrm1dom.html">HM</a><br>
 <a href="04sve1dom.html">Ve</a></td>
 <td valign="top">23<br>
+<a href="santarosadelima.html">La</a><br>
 </td>
 <td valign="top">24<br>
 </td>
