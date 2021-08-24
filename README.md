@@ -114,7 +114,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 <td valign="top">24<br>
   <a href="saobartolomeulaudes.html">La</a><br>
   <a href="saobartolomeuhm.html">HM</a><br>
-</td>
+  <a href="saobartolomeuvesperas.html">Ve</a></td>
 <td valign="top">25<br>
 </td>
 <td valign="top">26<br>
