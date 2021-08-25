@@ -1,14 +1,14 @@
 # Página inicial
 
-Uma parte é um blog pessoal, e a outra parte, uma versão on-line da <a href="https://pt.wikipedia.org/wiki/Liturgia_das_Horas">Liturgia das Horas</a> pra eu rezar fora de casa (embora já exista uma <a href="https://liturgiadashoras.online/">versão on-line</a>, mas ela tem todos aqueles sinais 
-gráficos que distraem a minha leitura quando é fora de casa).
+Uma parte é um blog pessoal, <!--e a outra parte, uma versão on-line da <a href="https://pt.wikipedia.org/wiki/Liturgia_das_Horas">Liturgia das Horas</a> pra eu rezar fora de casa (embora já exista uma <a href="https://liturgiadashoras.online/">versão on-line</a>, mas ela tem todos aqueles sinais 
+gráficos que distraem a minha leitura quando é fora de casa). -->
 
 **Blog**
 
 [A desfiguração de Cristo](adesfiguracaodecristo.html)
 
 
-**Liturgia das Horas**
+<!-- **Liturgia das Horas**
 *Agosto/2021*
 <table cellspacing="2" cellpadding="2" border="1" width="50%">
 <tbody>
@@ -143,7 +143,7 @@ gráficos que distraem a minha leitura quando é fora de casa).
 </td>
 </tr>
 </tbody>
-</table>
+</table> -->
 
 | [twitter](https://twitter.com/mrclmlt) | [facebook](https://www.facebook.com/mrclmlt) | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <sup>Licença: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.</sup> |
 
