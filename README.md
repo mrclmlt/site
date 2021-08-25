@@ -4,7 +4,8 @@ Um blog pessoal. <!--e a outra parte, uma versão on-line da <a href="https://pt
 gráficos que distraem a minha leitura quando é fora de casa). -->
 
 
-[A desfiguração de Cristo](adesfiguracaodecristo.html)
+[A desfiguração de Cristo](adesfiguracaodecristo.html)<br>
+[BbcReligioesCristianismoTeologiaDaLibertacao.html](Teologia da libertação - O caso da teologia da libertação)
 
 
 <!-- **Liturgia das Horas**
