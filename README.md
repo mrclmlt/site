@@ -5,7 +5,8 @@ gráficos que distraem a minha leitura quando é fora de casa). -->
 
 
 [A desfiguração de Cristo](adesfiguracaodecristo.html)<br>
-[Teologia da libertação - O caso da teologia da libertação](BbcReligioesCristianismoTeologiaDaLibertacao.html)
+[Teologia da libertação - O caso da teologia da libertação](BbcReligioesCristianismoTeologiaDaLibertacao.html)<br>
+[Religião e cultura](religiaoecultura.html)
 
 
 <!-- **Liturgia das Horas**
