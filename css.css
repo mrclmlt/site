@@ -1,4 +1,3 @@
-
 @charset utf-8;
 
 /* adaptado do site https://www.maujor.com/tutorial/rodape-embaixo-da-janela.php */
@@ -36,7 +35,7 @@ body {
 	float:left;
 	padding-top:10px;
 	text-align:justify;
-        font-size:large;
+        font-size:150%;
 	}
 #auxiliar {
 	width:200px;
