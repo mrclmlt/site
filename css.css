@@ -9,4 +9,6 @@ body
 h3
       {
         text-align: center;
+        background-color: blue;
+        color: yellow;
       }
