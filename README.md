@@ -7,7 +7,7 @@ gráficos que distraem a minha leitura quando é fora de casa). -->
 [A desfiguração de Cristo](adesfiguracaodecristo.html)<br>
 [Teologia da libertação - O caso da teologia da libertação](BbcReligioesCristianismoTeologiaDaLibertacao.html)<br>
 [Religião e cultura](religiaoecultura.html)
-
+[Deixar a fonte maior no celular](https://tableless.com.br/introducao-sobre-media-queries/)
 
 <!-- **Liturgia das Horas**
 *Agosto/2021*
