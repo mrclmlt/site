@@ -56,7 +56,7 @@ body {
 	}
 #rodape {
 	width:100%;
-	height:20px;
+	height:10%; /*20px;*/
 	position: absolute;
 	bottom: 0; /**/ 
 	border:dotted #999;
