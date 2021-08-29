@@ -1,5 +1,11 @@
 @charset utf-8;
 
+/* https://tableless.com.br/regra-viewport/ */
+
+@viewport {
+	 width: device-width;
+         }
+
 /* adaptado do site https://www.maujor.com/tutorial/rodape-embaixo-da-janela.php */
 
 html, body {height:100%;} 
