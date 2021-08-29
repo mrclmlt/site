@@ -19,7 +19,7 @@ body {
 	text-align:center;
 	}
 #tudo { 
-	/* width:50%; */
+	width:50%;
 	position:relative;  /*Contexto de posicionamento */
 
 	margin:0 auto;
