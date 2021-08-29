@@ -5,9 +5,10 @@
 @viewport {
 	 width: device-width;
          }
-@media screen and (min-width: 400px) {
-  @import url(desktop.css);
-}
+
+@media screen and (min-width: 2000px) {
+         @import url(desktop.css);
+         }
 
 /* adaptado do site https://www.maujor.com/tutorial/rodape-embaixo-da-janela.php */
 
