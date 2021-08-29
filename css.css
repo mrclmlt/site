@@ -15,8 +15,8 @@ body {
 	text-align:center;
 	}
 #tudo { 
-	width:50%;
-	 position:relative;  /*Contexto de posicionamento */
+	/* width:50%; */
+	position:relative;  /*Contexto de posicionamento */
 
 	margin:0 auto;
 	text-align:left;
@@ -24,7 +24,8 @@ body {
 	border:dotted #999;
 	border-width:0 1px;
 	}
- * html #tudo {height: 100%;}
+ * html 
+#tudo {height: 100%;}
 #conteudo {padding-bottom:30px;}
 #topo {
 	background:red;
