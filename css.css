@@ -1,11 +1,9 @@
 @charset utf-8;
 
 /* https://tableless.com.br/regra-viewport/ 
-
 @viewport {
 	 width: device-width;
          }
-
 @media screen and (min-width: 2000px) {
          @import url(desktop.css);
          } */
@@ -63,18 +61,10 @@ body {
 	border-width: 1px 0;
 	text-align:right;
         font-size:large;
-	/*color:white;
-	background:red;
-        padding-bottom:1px;*/
-
 	}
 #rodape p {
 	margin:0;
 	font-weight:bold;
 	}
-        a {
-	color:white
-        }
 
 .clear {clear:both;}
-
