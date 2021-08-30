@@ -1,14 +1,21 @@
 @charset utf-8;
 
+h1
+      {
+        text-align: center;
+	color: white;
+      }
+
+
 /* https://tableless.com.br/regra-viewport/ 
 @viewport {
 	 width: device-width;
          }
 @media screen and (min-width: 2000px) {
          @import url(desktop.css);
-         } */
+         } 
 
-/* adaptado do site https://www.maujor.com/tutorial/rodape-embaixo-da-janela.php */
+adaptado do site https://www.maujor.com/tutorial/rodape-embaixo-da-janela.php 
 
 html, body {height:100%;} 
 body {
@@ -18,7 +25,7 @@ body {
 	}
 #tudo { 
 	width:50%;
-	position:relative;  /*Contexto de posicionamento */
+	position:relative;  <!-- Contexto de posicionamento -->
 
 	margin:0 auto;
 	text-align:left;
@@ -56,7 +63,7 @@ body {
 	width:100%;
 	height:20px;
 	position: absolute;
-	bottom: 0; /**/ 
+	bottom: 0;  
 	border:dotted #999;
 	border-width: 1px 0;
 	text-align:right;
@@ -67,4 +74,4 @@ body {
 	font-weight:bold;
 	}
 
-.clear {clear:both;}
+.clear {clear:both;} */
