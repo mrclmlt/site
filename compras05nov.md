@@ -14,3 +14,7 @@
 1 sbp
 2 sabonetes líquidos
 1 pasta de dente
+
+Código do Pedido: 5HTOT350
+07/11 (qui) das 16h01 às 20h. 
+
