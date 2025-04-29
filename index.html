@@ -58,6 +58,12 @@
     <h1>Em manutenção</h1>
 </div>
 
+      <!-- mudar tamanho da fonte parte 1 -->
+   <div style="position:fixed; bottom:20px; right:20px; z-index:1000; background:white; padding:10px; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.2)">
+  <button onclick="diminuirFonte()" style="padding:5px 10px;">A-</button>
+  <button onclick="aumentarFonte()" style="padding:5px 10px;">A+</button>
+</div>
+   
    <hr>
 
 <p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a>--></p>
@@ -80,6 +86,34 @@
  <hr>
  
  <p><sup>Eu copiei o ícone de <a target="_blank" href="https://icons8.com/icon/99343/job">chave inglesa</a> do <a target="_blank" href="https://icons8.com">Icons8</a>.</sup></p><hr>
- 
+
+   <!-- mudar tamanho da fonte parte 2 -->
+   <script>
+  // Carrega o tamanho salvo ou usa 16px (1rem) como padrão
+  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
+  document.body.style.fontSize = tamanhoFonte + "px !important";
+
+  // Aumenta fonte (máximo de 24px)
+  function aumentarFonte() {
+    if (tamanhoFonte < 24) {
+      tamanhoFonte += 1;
+      aplicarFonte();
+    }
+  }
+
+  // Diminui fonte (mínimo de 12px)
+  function diminuirFonte() {
+    if (tamanhoFonte > 12) {
+      tamanhoFonte -= 1;
+      aplicarFonte();
+    }
+  }
+
+  // Aplica o tamanho e salva no localStorage
+  function aplicarFonte() {
+    document.body.style.fontSize = tamanhoFonte + "px !important";
+    localStorage.setItem("tamanhoFonte", tamanhoFonte);
+  }
+</script>
   </body>
 </html>
