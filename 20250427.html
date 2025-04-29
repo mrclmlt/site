@@ -55,7 +55,15 @@
         <h1>Em manutenção</h1>
     </div>
 </a>
+
+   <!-- mudar tamanho da fonte parte 1 -->
+   <div style="position:fixed; top:80px; right:20px; background:#fff; padding:8px; border-radius:50px; box-shadow:0 2px 10px rgba(0,0,0,0.2); z-index:1000;">
+  <button onclick="diminuirFonte()" style="border:none; background:#f0f0f0; border-radius:50%; width:40px; height:40px; font-weight:bold; cursor:pointer;">A-</button>
+  <button onclick="aumentarFonte()" style="border:none; background:#f0f0f0; border-radius:50%; width:40px; height:40px; font-weight:bold; cursor:pointer; margin-left:8px;">A+</button>
+</div>
+   
    <hr>
+   
    <h2>A escola da extrema-direita</h2>
    
    <p>O FBI <a href="https://www.estadao.com.br/internacional/fbi-prende-juiza-acusada-de-obstruir-operacao-para-deter-imigrante-nos-eua/">prendeu Hannah Dugan, uma juíza</a> do condado de Milwaukee (Wisconsin), acusada de obstruir uma operação federal para deter o imigrante indocumentado Eduardo Flores Ruiz. Segundo o Departamento de Justiça, ela teria conduzido o homem por uma saída alternativa do tribunal enquanto agentes aguardavam para prendê-lo, além de confrontá-los. A ação é uma escalada no conflito entre Trump e o Judiciário, com a Casa Branca pressionando autoridades locais a não interferirem na sua política de deportações em massa. Parece que ela foi solta logo depois mas, na prática, foi presa por resistir à política anti-imigratória de Trump e não por ter cometido um crime ou alguma imoralidade.</p>  
@@ -69,5 +77,32 @@
 <p>Por isso que, além da solidariedade, é necessário também prestar a atenção ao que acontece lá, porque esses métodos vão ser anotados pela extrema-direita tupiniquim, como num manual, mesmo que depois eles adaptem às condições locais (como já fizeram e continuam fazendo, aliás). Por aqui o bolsonarismo e seus herdeiros políticos já flertam com o autoritarismo trumpista, mesmo que pareçam caricaturas (se bem que a violência policial e o desmonte do estado de um governador como Tarcísio, que vestiu o boné do MAGA quando o Trump venceu a eleição, são cópias menos caricaturais e mais fidedignas, mesmo que pouca gente aponte as semelhanças).</p> 
 
 <p>No fim das contas parece um circo que se degradou, com coisas grotescas misturadas a patetices engraçadas, mas esta história da juíza presa mostra como a repressão não chega sempre com botas e farda, porque às vezes vem de terno e gravata, com todas as formalidades legais cumpridas, e usando um nariz de palhaço com um chapéu do MAGA.</p>
+
+   <!-- mudar tamanho da fonte parte 2 -->
+  <script>
+  // Verifica e aplica o tamanho salvo OU o padrão (16px)
+  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
+  aplicarFonte(); // Aplica imediatamente ao carregar
+
+  function aplicarFonte() {
+    document.body.style.setProperty('font-size', tamanhoFonte + 'px', 'important');
+    localStorage.setItem("tamanhoFonte", tamanhoFonte);
+  }
+
+  function aumentarFonte() {
+    if (tamanhoFonte < 24) {
+      tamanhoFonte += 2; // Aumenta 2px para ser perceptível
+      aplicarFonte();
+    }
+  }
+
+  function diminuirFonte() {
+    if (tamanhoFonte > 12) {
+      tamanhoFonte -= 2; // Diminui 2px
+      aplicarFonte();
+    }
+  }
+</script>
+   
      </body>
 </html>
