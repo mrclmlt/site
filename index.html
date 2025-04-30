@@ -1,24 +1,9 @@
 <!doctype html>
- <html lang="pt-BR">  
-  <head>  
-   <style>
-    @media (max-width: 600px) {
-      body { text-align: center; }
-    }
-
+<html lang="pt-BR">
+  
+  <head>
+    <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-      line-height: 1.6; /* Melhora a leitura em telas pequenas */
-      font-size: 1rem; /* Tamanho base responsivo */
-      color: #333; /* Cor suave para reduzir fadiga visual */
-    }
-    @media (max-width: 768px) {
-      body {
-        font-size: 1.1rem; /* Aumenta um pouco no mobile */
-      }
-    }
-     body {
       width: 100%;
       margin: 0;
       padding: 0;
@@ -31,8 +16,53 @@
         margin-right: auto;
       }
     }
+      body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #333;
+    }
+    @media (max-width: 768px) {
+      body {
+        font-size: 1.1rem;
+      }
+    }
+    
+    /* NOVO ESTILO PARA OS BOTÕES DE FONTE */
+    .font-control-container {
+      position: relative;
+      height: 60px; /* Espaço reservado para os botões */
+    }
+    
+    .font-controls {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 20px;
+      text-align: center;
+      z-index: 1000;
+      background: white;
+      padding: 8px 0;
+      margin: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .font-btn {
+      border: none;
+      background: #f0f0f0;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 4px;
+    }
+    
+    .font-btn:hover {
+      background: #e0e0e0;
+    }
   </style>
-   
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="chaveinglesa.png" type="image/x-icon">
@@ -59,17 +89,22 @@
 </div>
 
       <!-- mudar tamanho da fonte parte 1 -->
-   <div style="position:fixed; top:80px; right:20px; background:#fff; padding:8px; border-radius:50px; box-shadow:0 2px 10px rgba(0,0,0,0.2); z-index:1000;">
-  <button onclick="diminuirFonte()" style="border:none; background:#f0f0f0; border-radius:50%; width:40px; height:40px; font-weight:bold; cursor:pointer;">A-</button>
-  <button onclick="aumentarFonte()" style="border:none; background:#f0f0f0; border-radius:50%; width:40px; height:40px; font-weight:bold; cursor:pointer; margin-left:8px;">A+</button>
-</div>
-   
-   <hr>
+<hr id="hr1"><!-- hr1 marcado com ID -->
+    
+    <!-- Container para os controles de fonte -->
+    <div class="font-control-container">
+      <div class="font-controls" id="fontControls">
+        <button class="font-btn" onclick="diminuirFonte()">A-</button>
+        <button class="font-btn" onclick="aumentarFonte()">A+</button>
+      </div>
+    </div>
+
+<hr id="hr2"><!-- hr2 marcado com ID -->
 
 <p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a>--></p>
-<p><a href="/od.html">Orações diárias</a></p>
-<p><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a></p>
-<p><a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a></p>
+<p><a href="/od.html">Orações diárias</a> | Links diversos</p>
+<!-- <p><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a></p>
+<p><a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a></p> -->
 
 <hr>
  
@@ -85,10 +120,14 @@
  
  <hr>
  
- <p><sup>Eu copiei o ícone de <a target="_blank" href="https://icons8.com/icon/99343/job">chave inglesa</a> do <a target="_blank" href="https://icons8.com">Icons8</a>.</sup></p><hr>
+ <p>
+ 
+ <sup><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a> | <a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a> | Eu copiei o ícone de <a target="_blank" href="https://icons8.com/icon/99343/job">chave inglesa</a> do <a target="_blank" href="https://icons8.com">Icons8</a>.</sup>
+ 
+ </p><hr>
 
-   <!-- mudar tamanho da fonte parte 2 -->
-  <script>
+ <!-- mudar tamanho da fonte parte 2 -->
+<script>
   // Verifica e aplica o tamanho salvo OU o padrão (16px)
   let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
   aplicarFonte(); // Aplica imediatamente ao carregar
@@ -100,17 +139,35 @@
 
   function aumentarFonte() {
     if (tamanhoFonte < 24) {
-      tamanhoFonte += 2; // Aumenta 2px para ser perceptível
+      tamanhoFonte += 2;
       aplicarFonte();
     }
   }
 
   function diminuirFonte() {
     if (tamanhoFonte > 12) {
-      tamanhoFonte -= 2; // Diminui 2px
+      tamanhoFonte -= 2;
       aplicarFonte();
     }
   }
+  
+  // Controle do sticky entre hr1 e hr2
+  window.addEventListener('scroll', function() {
+    const controls = document.getElementById('fontControls');
+    const hr1 = document.getElementById('hr1');
+    const hr2 = document.getElementById('hr2');
+    
+    const hr1Bottom = hr1.getBoundingClientRect().bottom;
+    const hr2Top = hr2.getBoundingClientRect().top;
+    const viewportHeight = window.innerHeight;
+    
+    // Se estivermos entre hr1 e hr2, mantém sticky
+    if (hr1Bottom <= viewportHeight && hr2Top >= 0) {
+      controls.style.position = 'sticky';
+    } else {
+      controls.style.position = 'static';
+    }
+  });
 </script>
   </body>
 </html>
