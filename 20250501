@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  
+  <head>
+    <style>
+    body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial;
+    }
+    @media (min-width: 601px) {
+      body {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+      body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #333;
+    }
+    @media (max-width: 768px) {
+      body {
+        font-size: 1.1rem;
+      }
+    }
+    
+    /* NOVO ESTILO PARA OS BOTÕES DE FONTE */
+    .font-control-container {
+      position: relative;
+      height: 60px; /* Espaço reservado para os botões */
+    }
+    
+    .font-controls {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 20px;
+      text-align: center;
+      z-index: 1000;
+      background: white;
+      padding: 8px 0;
+      margin: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .font-btn {
+      border: none;
+      background: #f0f0f0;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 4px;
+    }
+    
+    .font-btn:hover {
+      background: #e0e0e0;
+    }
+  </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="chaveinglesa.png" type="image/x-icon">
+    <!-- Daqui pra cima não mudar nada -->
+    <meta name="description" content="Apenas um blog">
+
+      <meta property="og:title" content="As imagens de Gaza">
+      <meta property="og:description" content="Em manutenção">
+
+        <meta property="og:image" content="capa.jpg">
+        <meta property="og:image:secure_url" content="capa.jpg">
+        <meta property="og:image:alt" content="A imagem mostra uma cerca de arame farpado em formato espiral, conhecida como concertina, bem próxima de uma trepadeira de bougainville que está à esquerda da concertina e tem folhas verdes e flores de cor rosa vibrante. A câmera está alinhada com o centro dos anéis da concertina, criando um efeito de túnel que guia o olhar através dos círculos metálicos até a vegetação colorida ao fundo, onde eles desaparecem gradualmente em meio às folhagens, que atravessam a concertina. O céu está nublado, e parte de um telhado ondulado (provavelmente de fibrocimento) aparece na base da imagem, abaixo das plantas que atravessaram até o lado direito da concertina.">
+   
+    <meta name="fediverse:creator" content="@mrclmlt@mastodon.social">
+    <link rel="me" href="https://mastodon.social/@mrclmlt">
+    
+    <title>Em manutenção</title>    
+  </head>
+
+  <body>
+<a href="/" style="text-decoration: none; color: inherit;">
+    <div style="display: flex; align-items: center;">
+        <img src="chaveinglesa.png" width="5%" height="5%">
+        <h1>Em manutenção</h1>
+    </div></a>
+
+        <!-- mudar tamanho da fonte parte 1 -->
+<hr id="hr1"><!-- hr1 marcado com ID -->
+    
+    <!-- Container para os controles de fonte -->
+    <div class="font-control-container">
+      <div class="font-controls" id="fontControls">
+        <button class="font-btn" onclick="diminuirFonte()">A-</button>
+        <button class="font-btn" onclick="aumentarFonte()">A+</button>
+      </div>
+    </div>
+
+<hr id="hr2"><!-- hr2 marcado com ID -->
+   
+<h2>As imagens de Gaza</h2>
+
+<p>Não que eu entenda de semiótica (sei de Pierce e de <a href="https://pt.wikipedia.org/wiki/Louis_Hjelmslev" target="_blank">Himjsvzmiwjselv</a> por exemplo, mas não tenho nem um conhecimento profundo nem lembro sistematicamente de nada disso), no entanto eu sei que a escolha de tal ou qual imagem nunca é neutra. Mesmo que pareçam casuais, carregam intenções — seja para informar, sensibilizar ou até manipular, conscientemente ou não. As fotografias de um protesto, por exemplo, podem focar nos um manifestantes ou no confronto com a polícia, e cada foco altera substancialmente a mensagem transmitida. As imagens não são meros acessórios decorativos de um texto: são narrativas por si só, capazes de reforçar, contradizer ou até eclipsar as palavras que as cercam.</p>
+
+<p>O desconforto que me levou a este texto é o uso recorrente de imagens horríveis do genocídio em Gaza. O horror que acontece lá é real, desumano e inaceitável - mas eu não tenho certeza de que a reprodução incessante de corpos ensanguentados, vidas sob os escombros e defuntos infantis enfileirados um ao lado do outro realmente ajude a combatê-lo. Exceto pelo governo extremista que governa Israel e esse horror hoje em dia, ninguém quer sob os seus olhos esse sofrimento, nem quem o vive, nem quem o acompanha de longe: todos, a não ser o governo extremista, querem o fim desse horror (que não deveria ter nem começado). No fim questão que fica é: qual vai ser o resultado de insistir em expor a dor alheia?</p>
+
+<p>Dá para entender claramente a intenção de chocar para "mostrar a realidade", como se as imagens fossem um convite à ação. Mas há um duplo risco nisso: ou a repetição desses horrores os banaliza, como naquelas histórias de médicos que não ficam mais chocados com a morte de pacientes, ou afasta as pessoas que, previamente interessadas ou não no assunto, desviarão o olhar do sofrimento ilustrado. Compartilhar a destruição pode nascer da urgência de denúncia, mas repetir isso sistematicamente pode muito bem causar um efeito contrário a médio e longo prazo: anestesiar em vez de mobilizar, cansar/naturalizar em vez de comover.</p>
+
+<p>A ilustração da barbárie dificilmente vai atrair quem ainda está indiferente a ela. Quem compartilha as fotos mais assombrosas do horror grotesco em Gaza já se sensibilizou, e provavelmente não foi por causa de alguma foto que lhe tirou da indiferença anterior para a sensibilização posterior, e quem as evita dificilmente vai mudar de ideia por ver elas.</p> 
+
+<p>Apelar à razão — com dados, contextos e análises — deveria ser a regra, enquanto que o apelo às fortes emoções deveria ser a exceção, e não o contrário, que é o que parece ser a regra neste e em todos os outros casos hoje em dia.</p>
+
+ <!-- mudar tamanho da fonte parte 2 -->
+  <script>
+  // Verifica e aplica o tamanho salvo OU o padrão (16px)
+  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
+  aplicarFonte(); // Aplica imediatamente ao carregar
+
+  function aplicarFonte() {
+    document.body.style.setProperty('font-size', tamanhoFonte + 'px', 'important');
+    localStorage.setItem("tamanhoFonte", tamanhoFonte);
+  }
+
+  function aumentarFonte() {
+    if (tamanhoFonte < 24) {
+      tamanhoFonte += 2;
+      aplicarFonte();
+    }
+  }
+
+  function diminuirFonte() {
+    if (tamanhoFonte > 12) {
+      tamanhoFonte -= 2;
+      aplicarFonte();
+    }
+  }
+  
+  // Controle do sticky entre hr1 e hr2
+  window.addEventListener('scroll', function() {
+    const controls = document.getElementById('fontControls');
+    const hr1 = document.getElementById('hr1');
+    const hr2 = document.getElementById('hr2');
+    
+    const hr1Bottom = hr1.getBoundingClientRect().bottom;
+    const hr2Top = hr2.getBoundingClientRect().top;
+    const viewportHeight = window.innerHeight;
+    
+    // Se estivermos entre hr1 e hr2, mantém sticky
+    if (hr1Bottom <= viewportHeight && hr2Top >= 0) {
+      controls.style.position = 'sticky';
+    } else {
+      controls.style.position = 'static';
+    }
+  });
+</script>
+  </body>
+</html>
