@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mrclmlt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mrclmlt.com.br
+  * I am mrclmlt (https://keybase.io/mrclmlt) on keybase.
+  * I have a public key ASDMCHPGUde9yEL79m88vFE9TMV4O94gKnwXPGrpSFpRwQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc0873c651d7bdc842fbf66f3cbc513d4cc5783bde202a7c173c6ae9485a51c10a",
+      "host": "keybase.io",
+      "kid": "0120cc0873c651d7bdc842fbf66f3cbc513d4cc5783bde202a7c173c6ae9485a51c10a",
+      "uid": "65afe7af59c946df43bc9b77c6827619",
+      "username": "mrclmlt"
+    },
+    "merkle_root": {
+      "ctime": 1746471903,
+      "hash": "15e2bc5c9dae55777d40f9d6d6913619b0df5b77462ac434ac0c42de1af31f3616617708a0fa73106e6e719a37504eb0c1bbaba54a3508d3c9b453aa6d52cea8",
+      "hash_meta": "3e1293083546e4edae936fdda8cbf3ca9364cb136bfce6e4cd7ed484421ed5c9",
+      "seqno": 26769616
+    },
+    "service": {
+      "entropy": "KYkfQn4npfzfgvEjxeNMC6cR",
+      "hostname": "mrclmlt.com.br",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.1"
+  },
+  "ctime": 1746472093,
+  "expire_in": 504576000,
+  "prev": "71a1c039c1ebeaafc7ad7f38940e7effd2d06971851dcab392860ced3646cb10",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzAhzxlHXvchC+/ZvPLxRPUzFeDveICp8Fzxq6UhaUcEKp3BheWxvYWTESpcCBMQgcaHAOcHr6q/HrX84lA5+/9LQaXGFHcqzkoYM7TZGyxDEIFHLgrl6jtJCgF2JVlnpUPfimPg+1bGtsJImyFexInhSAgHCo3NpZ8RAn8GFl8V9q+YgO+eGcxPsan+vHBP9ozgvSkZKL8dxLyIdk4IViH1568yh+2ZA9Di81GSQD9IO1mr+oic4lQ0lBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP+xioB/F94bHzbHrtG472m5xIsLInP8FPodPxZKOwTmo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrclmlt
+
+==================================================================
