@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+  
+  <head>
+    <style>
+    body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial;
+    }
+    @media (min-width: 601px) {
+      body {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+      body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #333;
+    }
+    @media (max-width: 768px) {
+      body {
+        font-size: 1.1rem;
+      }
+    }
+    
+    /* NOVO ESTILO PARA OS BOTÕES DE FONTE */
+    .font-control-container {
+      position: relative;
+      height: 60px; /* Espaço reservado para os botões */
+    }
+    
+    .font-controls {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 20px;
+      text-align: center;
+      z-index: 1000;
+      background: white;
+      padding: 8px 0;
+      margin: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .font-btn {
+      border: none;
+      background: #f0f0f0;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 4px;
+    }
+    
+    .font-btn:hover {
+      background: #e0e0e0;
+    }
+  </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="chaveinglesa.png" type="image/x-icon">
+    <!-- Daqui pra cima não mudar nada -->
+    <meta name="description" content="Apenas um blog">
+
+      <meta property="og:title" content="Sobre">
+      <meta property="og:description" content="Em Manutenção">
+
+        <meta property="og:image" content="capa.jpg">
+        <meta property="og:image:secure_url" content="capa.jpg">
+        <meta property="og:image:alt" content="A imagem mostra uma cerca de arame farpado em formato espiral, conhecida como concertina, bem próxima de uma trepadeira de bougainville que está à esquerda da concertina e tem folhas verdes e flores de cor rosa vibrante. A câmera está alinhada com o centro dos anéis da concertina, criando um efeito de túnel que guia o olhar através dos círculos metálicos até a vegetação colorida ao fundo, onde eles desaparecem gradualmente em meio às folhagens, que atravessam a concertina. O céu está nublado, e parte de um telhado ondulado (provavelmente de fibrocimento) aparece na base da imagem, abaixo das plantas que atravessaram até o lado direito da concertina.">
+   
+    <meta name="fediverse:creator" content="@mrclmlt@mastodon.social">
+    <link rel="me" href="https://mastodon.social/@mrclmlt">
+    
+    <title>Em manutenção</title>    
+  </head>
+
+  <body>
+<a href="/" style="text-decoration: none; color: inherit;">
+    <div style="display: flex; align-items: center;">
+        <img src="chaveinglesa.png" width="5%" height="5%">
+        <h1>Em manutenção</h1>
+    </div></a>
+
+      <!-- mudar tamanho da fonte parte 1 -->
+<hr id="hr1"><!-- hr1 marcado com ID -->
+    
+    <!-- Container para os controles de fonte -->
+    <div class="font-control-container">
+      <div class="font-controls" id="fontControls">
+        <button class="font-btn" onclick="diminuirFonte()">A-</button>
+        <button class="font-btn" onclick="aumentarFonte()">A+</button>
+      </div>
+    </div>
+
+<hr id="hr2"><!-- hr2 marcado com ID -->
+
+<p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a>--></p>
+
+ 
+ <h2>Sobre</h2>
+ <p>É só um blog com orações, opiniões e eventualmente textos copiados de outros lugares. O <a href="/od#od">"sobre"</a> das orações é um pouco mais esclarecedor do que este.</p>
+ 
+ <hr>
+ 
+ <h2>Créditos</h2>
+ <p>Eu copiei o ícone de <a target="_blank" href="https://icons8.com/icon/99343/job">chave inglesa</a> do <a target="_blank" href="https://icons8.com">Icons8</a>. As imagens desse site (por enquanto, a imagem da <a href="/capa.jpg">capa</a> e a das <a href="od.jpg">orações diárias</a>)<sup>1</sup> são minhas, e os textos, áudios e vídeos também.<br>
+Se alguém quiser pode copiar, usar (inclusive para fins comerciais), fazer qualquer coisa com as minhas coisas que estiverem neste site, desde que dê os devidos créditos a mim, disponibilize aquilo onde pretende inserir o que saiu daqui nestas mesmas condições, e que aquilo onde pretende inserir o que saiu daqui não seja para a promoção, apoio, exaltação, etc de qualquer coisa xenófoba, nazista, racista, machista, fascista, homofóbica, "religiãofóbica" (essa palavra não existe, mas acho que dá pra entender), golpista e/ou antidemocrática, nem nada parecido com isso. <mark>Fora dessas condições não pode nada</mark>, incluindo as coisas que não forem minhas (cujas condições de uso são aquelas definidas por quem quer que seja a quem elas pertencerem, e provavelmente não são as mesmas que as minhas) e que eu vou indicar quais são onde estas coisas estiverem.<br>
+E se eu achar que não é pra usar, seja pelo que for, inclusive sem motivo nenhum, aí também não pode usar, mesmo que cumpra as condições acima.<br>
+ <sup>1 Na maioria das vezes só dá pra ver elas nos links que mandam pra alguma página desse site.</sup></p>
+ 
+ <hr>
+ 
+ <h2>Contato</h2>
+ 
+ <p><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a> | <a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a></p>
+ 
+ <hr>
+
+ <!-- mudar tamanho da fonte parte 2 -->
+<script>
+  // Verifica e aplica o tamanho salvo OU o padrão (16px)
+  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
+  aplicarFonte(); // Aplica imediatamente ao carregar
+
+  function aplicarFonte() {
+    document.body.style.setProperty('font-size', tamanhoFonte + 'px', 'important');
+    localStorage.setItem("tamanhoFonte", tamanhoFonte);
+  }
+
+  function aumentarFonte() {
+    if (tamanhoFonte < 24) {
+      tamanhoFonte += 2;
+      aplicarFonte();
+    }
+  }
+
+  function diminuirFonte() {
+    if (tamanhoFonte > 12) {
+      tamanhoFonte -= 2;
+      aplicarFonte();
+    }
+  }
+  
+  // Controle do sticky entre hr1 e hr2
+  window.addEventListener('scroll', function() {
+    const controls = document.getElementById('fontControls');
+    const hr1 = document.getElementById('hr1');
+    const hr2 = document.getElementById('hr2');
+    
+    const hr1Bottom = hr1.getBoundingClientRect().bottom;
+    const hr2Top = hr2.getBoundingClientRect().top;
+    const viewportHeight = window.innerHeight;
+    
+    // Se estivermos entre hr1 e hr2, mantém sticky
+    if (hr1Bottom <= viewportHeight && hr2Top >= 0) {
+      controls.style.position = 'sticky';
+    } else {
+      controls.style.position = 'static';
+    }
+  });
+</script>
+  </body>
+</html>
