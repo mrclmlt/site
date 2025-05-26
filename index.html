@@ -39,7 +39,7 @@
       position: -webkit-sticky; /* Safari */
       position: sticky;
       top: 20px;
-      text-align: center;
+      text-align: left;
       z-index: 1000;
       background: white;
       padding: 8px 0;
@@ -89,13 +89,13 @@
 </div>
 
       <!-- mudar tamanho da fonte parte 1 -->
-<hr id="hr1"><!-- hr1 marcado com ID -->
+<hr id="hr1" style="margin-top: 0;"><!-- hr1 marcado com ID -->
     
     <!-- Container para os controles de fonte -->
     <div class="font-control-container">
-      <div class="font-controls" id="fontControls">
-        <button class="font-btn" onclick="diminuirFonte()">A-</button>
-        <button class="font-btn" onclick="aumentarFonte()">A+</button>
+      <div class="font-controls" id="fontControls"><sup>Tamanho da letra:<sup>
+        <button class="font-btn" onclick="diminuirFonte()">-</button>
+        <button class="font-btn" onclick="aumentarFonte()">+</button>
       </div>
     </div>
 
