@@ -1,8 +1,9 @@
 menu commito
 stage arquivos modificados para o comit
+(se for um arquivo novo, clicar nele com o botão direito e selecionar "stage selecionado")
 escrever alguma coisa em "descreva resumidamente etc"
 clicar no botão commito
-menu commito
+menu ações
 push
 senha
 botão push
