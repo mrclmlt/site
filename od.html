@@ -2,83 +2,27 @@
 <html lang="pt-BR">
   
   <head>
-    <style>
-    body {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: Arial;
-    }
-    @media (min-width: 601px) {
-      body {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-      body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-      line-height: 1.6;
-      font-size: 1rem;
-      color: #333;
-    }
-    @media (max-width: 768px) {
-      body {
-        font-size: 1.1rem;
-      }
-    }
-    
-    /* NOVO ESTILO PARA OS BOTÕES DE FONTE */
-    .font-control-container {
-      position: relative;
-      height: 60px; /* Espaço reservado para os botões */
-    }
-    
-    .font-controls {
-      position: -webkit-sticky; /* Safari */
-      position: sticky;
-      top: 20px;
-      text-align: center;
-      z-index: 1000;
-      background: white;
-      padding: 8px 0;
-      margin: 10px 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .font-btn {
-      border: none;
-      background: #f0f0f0;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      font-weight: bold;
-      cursor: pointer;
-      margin: 0 4px;
-    }
-    
-    .font-btn:hover {
-      background: #e0e0e0;
-    }
-  </style>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="chaveinglesa.png" type="image/x-icon">
-    <meta name="description" content="Orações diárias com os salmos inspiradas na Liturgia das Horas">
-<!-- começo -->  
-<meta property="og:title" content="Orações Diárias">  
-<meta property="og:description" content="Salmos, cânticos bíblicos e textos religiosos">
-<meta property="og:audio" content="https://www.mrclmlt.com.br/16dejunho.mp3" />
-<meta property="og:audio:type" content="audio/mpeg" />
-<meta property="og:image" content="https://www.mrclmlt.com.br/od.jpg">  
-<meta property="og:image:secure_url" content="https://www.mrclmlt.com.br/od.jpg">  
-<meta property="og:image:alt" content="Duas páginas abertas de um livro, com textos em português. O texto parece ser de natureza religiosa, possivelmente um livro de orações ou uma bíblia. Há títulos e subtítulos em negrito, e o texto está formatado em parágrafos e versos. A página da esquerda contém trechos como «Meditação sobre a Palavra de Deus na Lei» e «Cântico da vitória após a passagem do Mar Vermelho». A página da direita contém trechos como «Sábado - Laudes» e «Louvor ao Deus misericordioso». Descrição fornecida por @altbot com uma leve edição minha.">  
-  
-<meta name="fediverse:creator" content="@mrclmlt@mastodon.social">  
-<link rel="me" href="https://mastodon.social/@mrclmlt">  
-</head>
+    <!-- Daqui pra cima não mudar nada -->
+    <meta name="description" content="Apenas um blog">
+
+    <meta property="og:title" content="Em manutenção">
+    <meta property="og:description" content="Apenas mais um blog">
+
+    <meta property="og:image" content="capa.jpg">
+    <meta property="og:image:secure_url" content="capa.jpg">
+    <meta property="og:image:alt" content="A imagem mostra uma cerca de arame farpado em formato espiral, conhecida como concertina, bem próxima de uma trepadeira de bougainville que está à esquerda da concertina e tem folhas verdes e flores de cor rosa vibrante. A câmera está alinhada com o centro dos anéis da concertina, criando um efeito de túnel que guia o olhar através dos círculos metálicos até a vegetação colorida ao fundo, onde eles desaparecem gradualmente em meio às folhagens, que atravessam a concertina. O céu está nublado, e parte de um telhado ondulado (provavelmente de fibrocimento) aparece na base da imagem, abaixo das plantas que atravessaram até o lado direito da concertina.">
+   
+    <meta name="fediverse:creator" content="@mrclmlt@mastodon.social">
+    <meta name="fediverse:creator" content="@mrclmlt@infosec.exchange">
+    <link rel="me" href="https://mastodon.social/@mrclmlt">
+    <link rel="me" href="https://infosec.exchange/@mrclmlt">
+    
+    <title>Em manutenção</title>
+    <link rel="stylesheet" href="css.css">
+  </head>
 
 <body>
 
@@ -124,18 +68,7 @@ Seu navegador não suporta áudio HTML5.
     -->
     
 
-<hr id="hr1"><!-- hr1 marcado com ID -->
-    
-    <!-- Container para os controles de fonte -->
-    <div class="font-control-container">
-      <div class="font-controls" id="fontControls">
-        <button class="font-btn" onclick="diminuirFonte()">A-</button>
-        <button class="font-btn" onclick="aumentarFonte()">A+</button>
-      </div>
-    </div>
-
-<hr id="hr2"><!-- hr2 marcado com ID -->
-    
+   
 
    <!-- <h1 id="od">Orações diárias</h1> -->
     
@@ -175,47 +108,6 @@ Seu navegador não suporta áudio HTML5.
     <p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a>--></p>
     <p><a href="/">Início</a></p>
 <hr>
-  <script>
-  // Verifica e aplica o tamanho salvo OU o padrão (16px)
-  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
-  aplicarFonte(); // Aplica imediatamente ao carregar
 
-  function aplicarFonte() {
-    document.body.style.setProperty('font-size', tamanhoFonte + 'px', 'important');
-    localStorage.setItem("tamanhoFonte", tamanhoFonte);
-  }
-
-  function aumentarFonte() {
-    if (tamanhoFonte < 24) {
-      tamanhoFonte += 2;
-      aplicarFonte();
-    }
-  }
-
-  function diminuirFonte() {
-    if (tamanhoFonte > 12) {
-      tamanhoFonte -= 2;
-      aplicarFonte();
-    }
-  }
-  
-  // Controle do sticky entre hr1 e hr2
-  window.addEventListener('scroll', function() {
-    const controls = document.getElementById('fontControls');
-    const hr1 = document.getElementById('hr1');
-    const hr2 = document.getElementById('hr2');
-    
-    const hr1Bottom = hr1.getBoundingClientRect().bottom;
-    const hr2Top = hr2.getBoundingClientRect().top;
-    const viewportHeight = window.innerHeight;
-    
-    // Se estivermos entre hr1 e hr2, mantém sticky
-    if (hr1Bottom <= viewportHeight && hr2Top >= 0) {
-      controls.style.position = 'sticky';
-    } else {
-      controls.style.position = 'static';
-    }
-  });
-</script>
  </body>
 </html>
