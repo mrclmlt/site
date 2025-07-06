@@ -3,29 +3,26 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-               Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+               Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   line-height: 1.6;
   font-size: 1rem;
   color: #333;
 }
 
-/* Layout para desktop - com margens laterais */
+/* Layout para desktop */
 @media (min-width: 601px) {
   body {
-    width: 80%; /* Alterado para 80% para criar margens laterais */
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 10%; /* Margens internas para o conteúdo */
   }
 }
 
 /* Ajuste de fonte para mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   body {
     font-size: 1.1rem;
-    width: 100%;
-    padding: 0 5%; /* Pequenas margens laterais no mobile */
   }
 }
 
@@ -41,14 +38,14 @@ body {
   height: 5%;
 }
 
-/* Estilos para os controles de fonte */
+/* Estilos para os controles de fonte (mantidos, mas sem funcionalidade JS) */
 .font-control-container {
   position: relative;
-  height: 60px;
+  height: 60px; /* Espaço reservado para os botões */
 }
 
 .font-controls {
-  position: -webkit-sticky;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 20px;
   text-align: left;
