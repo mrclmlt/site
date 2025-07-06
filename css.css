@@ -1,0 +1,78 @@
+/* Estilos gerais */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+               Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Layout para desktop */
+@media (min-width: 601px) {
+  body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Ajuste de fonte para mobile */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+
+/* Estilo para o cabeçalho com imagem e título */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para a imagem do cabeçalho */
+.header-img {
+  width: 5%;
+  height: 5%;
+}
+
+/* Estilos para os controles de fonte (mantidos, mas sem funcionalidade JS) */
+.font-control-container {
+  position: relative;
+  height: 60px; /* Espaço reservado para os botões */
+}
+
+.font-controls {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20px;
+  text-align: left;
+  z-index: 1000;
+  background: white;
+  padding: 8px 0;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.font-btn {
+  border: none;
+  background: #f0f0f0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.font-btn:hover {
+  background: #e0e0e0;
+}
+
+/* Estilo para links marcados */
+mark {
+  background-color: #ffff00;
+  padding: 0 2px;
+}
