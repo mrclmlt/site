@@ -7,7 +7,8 @@ body {
                Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   line-height: 1.6;
   font-size: 1rem;
-  color: #333;
+  background-color: #faeed0;
+  color: #784b04;
 }
 
 /* Layout para desktop */
@@ -42,4 +43,18 @@ body {
 mark {
   background-color: #ffff00;
   padding: 0 2px;
+}
+
+/* Estilo para títulos de blog no estilo WriteFreely */
+#blog-title a { 
+  color: #ff0000;
+}
+#blog-title a:hover { 
+  color: #ea7500;
+}
+
+/* Estilo para títulos de posts */
+.post-title a.u-url:link, 
+.post-title a.u-url:visited {
+  color: #ff0000;
 }
