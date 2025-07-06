@@ -2,181 +2,70 @@
 <html lang="pt-BR">
   
   <head>
-    <style>
-    body {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: Arial;
-    }
-    @media (min-width: 601px) {
-      body {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-      body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-      line-height: 1.6;
-      font-size: 1rem;
-      color: #333;
-    }
-    @media (max-width: 768px) {
-      body {
-        font-size: 1.1rem;
-      }
-    }
-    
-    /* NOVO ESTILO PARA OS BOTÕES DE FONTE */
-    .font-control-container {
-      position: relative;
-      height: 60px; /* Espaço reservado para os botões */
-    }
-    
-    .font-controls {
-      position: -webkit-sticky; /* Safari */
-      position: sticky;
-      top: 20px;
-      text-align: left;
-      z-index: 1000;
-      background: white;
-      padding: 8px 0;
-      margin: 10px 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .font-btn {
-      border: none;
-      background: #f0f0f0;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      font-weight: bold;
-      cursor: pointer;
-      margin: 0 4px;
-    }
-    
-    .font-btn:hover {
-      background: #e0e0e0;
-    }
-  </style>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="chaveinglesa.png" type="image/x-icon">
     <!-- Daqui pra cima não mudar nada -->
     <meta name="description" content="Apenas um blog">
 
-      <meta property="og:title" content="Em manutenção">
-      <meta property="og:description" content="Apenas mais um blog">
+    <meta property="og:title" content="Em manutenção">
+    <meta property="og:description" content="Apenas mais um blog">
 
-        <meta property="og:image" content="capa.jpg">
-        <meta property="og:image:secure_url" content="capa.jpg">
-        <meta property="og:image:alt" content="A imagem mostra uma cerca de arame farpado em formato espiral, conhecida como concertina, bem próxima de uma trepadeira de bougainville que está à esquerda da concertina e tem folhas verdes e flores de cor rosa vibrante. A câmera está alinhada com o centro dos anéis da concertina, criando um efeito de túnel que guia o olhar através dos círculos metálicos até a vegetação colorida ao fundo, onde eles desaparecem gradualmente em meio às folhagens, que atravessam a concertina. O céu está nublado, e parte de um telhado ondulado (provavelmente de fibrocimento) aparece na base da imagem, abaixo das plantas que atravessaram até o lado direito da concertina.">
+    <meta property="og:image" content="capa.jpg">
+    <meta property="og:image:secure_url" content="capa.jpg">
+    <meta property="og:image:alt" content="A imagem mostra uma cerca de arame farpado em formato espiral, conhecida como concertina, bem próxima de uma trepadeira de bougainville que está à esquerda da concertina e tem folhas verdes e flores de cor rosa vibrante. A câmera está alinhada com o centro dos anéis da concertina, criando um efeito de túnel que guia o olhar através dos círculos metálicos até a vegetação colorida ao fundo, onde eles desaparecem gradualmente em meio às folhagens, que atravessam a concertina. O céu está nublado, e parte de um telhado ondulado (provavelmente de fibrocimento) aparece na base da imagem, abaixo das plantas que atravessaram até o lado direito da concertina.">
    
     <meta name="fediverse:creator" content="@mrclmlt@mastodon.social">
     <meta name="fediverse:creator" content="@mrclmlt@infosec.exchange">
     <link rel="me" href="https://mastodon.social/@mrclmlt">
     <link rel="me" href="https://infosec.exchange/@mrclmlt">
     
-    <title>Em manutenção</title>    
+    <title>Em manutenção</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-<div style="display: flex; align-items: center;">
-    <img src="chaveinglesa.png" width="5%" height="5%">
-    <h1>Em manutenção</h1>
-</div>
+    <div class="header-container">
+      <img src="chaveinglesa.png" class="header-img">
+      <h1>Em manutenção</h1>
+    </div>
 
-      <!-- mudar tamanho da fonte parte 1 -->
-<hr id="hr1" style="margin-top: 0;"><!-- hr1 marcado com ID -->
+    <hr id="hr1" style="margin-top: 0;"><!-- hr1 marcado com ID -->
     
-    <!-- Container para os controles de fonte -->
+    <!-- Container para os controles de fonte (mantido mas sem funcionalidade) -->
     <div class="font-control-container">
       <div class="font-controls" id="fontControls"><sup>Tamanho da letra:<sup>
-        <button class="font-btn" onclick="diminuirFonte()">-</button>
-        <button class="font-btn" onclick="aumentarFonte()">+</button>
+        <button class="font-btn">-</button>
+        <button class="font-btn">+</button>
       </div>
     </div>
 
-<hr id="hr2"><!-- hr2 marcado com ID -->
+    <hr id="hr2"><!-- hr2 marcado com ID -->
 
-<p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a> <a rel="me" href="https://infosec.exchange/@mrclmlt">Mastodon</a>--></p>
-<p><a href="/od.html">Orações diárias</a> | <a href="sobre">Sobre / cŕeditos / contato / etc</a></p>
-<!-- <p><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a></p>
-<p><a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a></p> -->
+    <p><!--<a rel="me" href="https://mastodon.social/@mrclmlt">Mastodon</a> <a rel="me" href="https://infosec.exchange/@mrclmlt">Mastodon</a>--></p>
+    <p><a href="/od.html">Orações diárias</a> | <a href="sobre">Sobre / cŕeditos / contato / etc</a></p>
+    <!-- <p><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a></p>
+    <p><a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a></p> -->
 
-<hr>
+    <hr>
  
- <h2>Blog</h2>
- <p> 
- [ <a href="20250612.html">A civilização global sobreviverá ao declínio do Ocidente?</a> ]
- [ <a href="20250607.html">Mística contemporânea</a> ]
- [ <a href="20250530.html">Abolição do Estado no comunismo marxista e no anarcocapitalismo</a> <mark>(IA)</mark> ]
- [ <a href="20250527.html">Agnotologia e ‘ciência cristã’: quando a ignorância e a fé religiosa se voltam contra o conhecimento</a> ]
- [ <a href="20250517">"Chronos" e "Kairós". Escravos ou libertos?</a> ]  
- [ <a href="20250507">Um pontificado e suas interpretações</a> ]  
- [ <a href="20250501.html">As imagens de Gaza</a> ]  
- [ <a href="20250427.html">A escola da extrema-direita</a> ]
- [ Os textos seguintes estão no <a href="https://listed.to/@marcelo">listed.to/@marcelo</a> ]
- [ <a href="https://listed.to/@marcelo/61302/ressuscitou">Ressuscitou</a> ]
- [ <a href="https://listed.to/@marcelo/61235/viver-e-morrer-com-fome-jesus">Viver e morrer com fome: Jesus</a> ]
- [ <a href="https://listed.to/@marcelo/61163/a-traicao-de-judas-premeditada-por-deus-ou-predita-por-jesus">A traição de Judas: premeditada por Deus ou predita por Jesus?</a> ]
- [ <a href="https://listed.to/@marcelo/61083/a-entrada-triunfal-de-cristo-em-jerusalem">A entrada triunfal de Cristo em Jerusalém</a> ]
- [ <a href="https://listed.to/@marcelo/61031/sem-anistia">Sem anistia</a> ]
- </p>
- <hr>
- 
- <!-- <p>
- 
- <sup><a href="https://bsky.app/profile/mrclmlt.bsky.social" target="_blank">Bluesky</a> | <a href="mailto:mrclmlt@gmail.com">mrclmlt@gmail.com</a> | Eu copiei o ícone de <a target="_blank" href="https://icons8.com/icon/99343/job">chave inglesa</a> do <a target="_blank" href="https://icons8.com">Icons8</a>.</sup>
- 
- </p><hr> -->
-
- <!-- mudar tamanho da fonte parte 2 -->
-<script>
-  // Verifica e aplica o tamanho salvo OU o padrão (16px)
-  let tamanhoFonte = Number(localStorage.getItem("tamanhoFonte")) || 16;
-  aplicarFonte(); // Aplica imediatamente ao carregar
-
-  function aplicarFonte() {
-    document.body.style.setProperty('font-size', tamanhoFonte + 'px', 'important');
-    localStorage.setItem("tamanhoFonte", tamanhoFonte);
-  }
-
-  function aumentarFonte() {
-    if (tamanhoFonte < 24) {
-      tamanhoFonte += 2;
-      aplicarFonte();
-    }
-  }
-
-  function diminuirFonte() {
-    if (tamanhoFonte > 12) {
-      tamanhoFonte -= 2;
-      aplicarFonte();
-    }
-  }
-  
-  // Controle do sticky entre hr1 e hr2
-  window.addEventListener('scroll', function() {
-    const controls = document.getElementById('fontControls');
-    const hr1 = document.getElementById('hr1');
-    const hr2 = document.getElementById('hr2');
-    
-    const hr1Bottom = hr1.getBoundingClientRect().bottom;
-    const hr2Top = hr2.getBoundingClientRect().top;
-    const viewportHeight = window.innerHeight;
-    
-    // Se estivermos entre hr1 e hr2, mantém sticky
-    if (hr1Bottom <= viewportHeight && hr2Top >= 0) {
-      controls.style.position = 'sticky';
-    } else {
-      controls.style.position = 'static';
-    }
-  });
-</script>
+    <h2>Blog</h2>
+    <p> 
+    [ <a href="20250612.html">A civilização global sobreviverá ao declínio do Ocidente?</a> ]
+    [ <a href="20250607.html">Mística contemporânea</a> ]
+    [ <a href="20250530.html">Abolição do Estado no comunismo marxista e no anarcocapitalismo</a> <mark>(IA)</mark> ]
+    [ <a href="20250527.html">Agnotologia e 'ciência cristã': quando a ignorância e a fé religiosa se voltam contra o conhecimento</a> ]
+    [ <a href="20250517">"Chronos" e "Kairós". Escravos ou libertos?</a> ]  
+    [ <a href="20250507">Um pontificado e suas interpretações</a> ]  
+    [ <a href="20250501.html">As imagens de Gaza</a> ]  
+    [ <a href="20250427.html">A escola da extrema-direita</a> ]
+    [ Os textos seguintes estão no <a href="https://listed.to/@marcelo">listed.to/@marcelo</a> ]
+    [ <a href="https://listed.to/@marcelo/61302/ressuscitou">Ressuscitou</a> ]
+    [ <a href="https://listed.to/@marcelo/61235/viver-e-morrer-com-fome-jesus">Viver e morrer com fome: Jesus</a> ]
+    [ <a href="https://listed.to/@marcelo/61163/a-traicao-de-judas-premeditada-por-deus-ou-predita-por-jesus">A traição de Judas: premeditada por Deus ou predita por Jesus?</a> ]
+    [ <a href="https://listed.to/@marcelo/61083/a-entrada-triunfal-de-cristo-em-jerusalem">A entrada triunfal de Cristo em Jerusalém</a> ]
+    [ <a href="https://listed.to/@marcelo/61031/sem-anistia">Sem anistia</a> ]
+    </p>
+    <hr>
   </body>
 </html>
